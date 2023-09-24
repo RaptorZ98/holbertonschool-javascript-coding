@@ -6,6 +6,6 @@ req(filePath, function (error, response) {
   if (error) {
     console.log(error);
   } else {
-    console.log(response);
+    console.log('code: ' + response.statusCode);
   }
 });
