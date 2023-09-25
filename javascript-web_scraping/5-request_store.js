@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
 const req = require('request');
-const lorem = process.argv[3]
+const lorem = process.argv[3];
 const filePath = process.argv[2];
-const f = require('fs')
+const f = require('fs');
 req(filePath, function (error, response, body) {
   if (error) {
     console.log(error);
@@ -12,6 +12,6 @@ req(filePath, function (error, response, body) {
       if (error) {
         console.log(error);
       }
-    })
+    });
   }
 });
