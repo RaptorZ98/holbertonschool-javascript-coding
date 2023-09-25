@@ -15,6 +15,6 @@ req(film, function (error, response, body) {
         }
       }
     }
-    console.log(appear)
+    console.log(appear);
   }
 });
