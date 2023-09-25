@@ -8,10 +8,10 @@ req(filePath, function (error, response, body) {
   if (error) {
     console.log(error);
   } else {
-    f.writeFile(lorem, body, 'utf-8', function (error)) {
+    f.writeFile(lorem, body, 'utf-8', function (error) {
       if (error) {
         console.log(error);
       }
-    }
+    })
   }
 });
